@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1 Formulário</title>
+</head>
+<body>
+    <h1>Exemplo 1 Formulário</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Principais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" 
+                   size="50" maxlength="50"><br>
+            <input type="email" placeholder="E-mail"><br>
+            <label>Data Nascimento
+                <input type="date" max="2022-01-01">
+            </label><br>
+            <h4>cor/etnia</h4>
+            <input type="radio" name="etnia" value="br">Branca<br>
+            <input type="radio" name="etnia" value="pr">Preta<br>
+            <input type="radio" name="etnia" value="pa">Parda<br>
+            <input type="radio" name="etnia" value="in">Indígena<br>
+            <input type="radio" name="etnia" value="am">Amarela
+        </fieldset>
+        <fieldset>
+            <legend>Dados complementares</legend>
+            <label>Renda Familiar
+                <input type="number" min="0" step="0.01">
+            </label>
+            <h4>Preferências musicais</h4>
+            <input type="checkbox" value="Samba">Samba<br>
+            <input type="checkbox" value="Rock">Rock<br>
+            <input type="checkbox" value="Sertanejo">Sertanejo<br>
+            <br>
+            <label for="estado">Estado Natal</label>
+            <select id="estado">
+                <option selected disabled>selecione...</option>
+                <option value="RO">Rondônia</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PR">Paraná</option>
+            </select><br>
+            <label for="obs">Observações</label><br>
+            <textarea id="obs" name="obs" cols="40" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
