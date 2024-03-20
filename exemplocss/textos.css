@@ -1,0 +1,28 @@
+h1{
+   background-color: darkcyan;
+   color:aliceblue;
+   text-align: center;
+   transform: rotate(5deg);
+   width:fit-content;
+   margin: 0 auto;
+}
+
+p{
+    text-indent: 3em;
+    color: darkslategrey;
+}
+
+h1, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p3{
+    border: dotted 1px coral;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: '\1F4C8';
+    list-style-position: inside;
+}
